@@ -1,4 +1,4 @@
-name: ci 
+name: Deploy Page
 on:
   push:
     branches:
