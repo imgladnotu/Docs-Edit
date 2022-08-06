@@ -9,10 +9,10 @@ Fedoraware is a free open-source cheat for Team Fortress 2.
 
 ## Quickstart
 
-- [Getting Started](/Getting-Started)
+- [Getting Started](./Getting-Started)
 - [FAQ](faq.md)
-- [Features](/Features)
-- [Lua](/Lua)
+- [Features](./Features)
+- [Lua](./Lua)
 
 ## Docs
 
