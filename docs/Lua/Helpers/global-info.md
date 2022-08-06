@@ -2,34 +2,42 @@
 
 Global info about the game.
 
-## `RealTime()`
+## Functions
+
+### `RealTime()`
 
 Returns the real time in seconds.
 
-## `FrameCount()`
+### `FrameCount()`
 
 Returns the current frame count.
 
-## `AbsFrameTime()`
+### `AbsFrameTime()`
 
 Returns the absolute time in seconds since the game started.
 
-## `CurTime()`
+### `CurTime()`
 
 Returns the current time in seconds.
 
-## `FrameTime()`
+### `FrameTime()`
 
 Time per frame.
 
-## `MaxClients()`
+### `MaxClients()`
 
 Max ammount of clients.
 
-## `TickCount()`
+### `TickCount()`
 
 Returns the current tick count.
 
-## `IntervalPerTick()`
+### `IntervalPerTick()`
 
 Returns how long a tick is.
+
+## Examples
+
+``` lua title="Prints the current tick count"
+print(GlobalInfo.TickCount())
+```

@@ -2,32 +2,44 @@
 
 The UserCmd gets passed to the CreateMove callback and contains information about the current user update.
 
-## `GetButtons()`
+## Methods
+
+### `GetButtons()`
 
 Returns the currently pressed movement/interaction buttons as a number.
 
-## `GetViewAngles()`
+### `GetViewAngles()`
 
 Viewangles as Vec3.
 
-## `GetForwardMove()`
+### `GetForwardMove()`
 
 Forward movement as number.
 
-## `GetSideMove()`
+### `GetSideMove()`
 
-Side movement as number.
+Side strafe as number.
 
-## `GetUpMove()`
+### `GetUpMove()`
 
 Up/down movement as number.
 
-## `SetButtons(buttons)`
+### `SetButtons(buttons)`
 
-## `SetViewAngles(angles)`
+Sets the buttons.
 
-## `SetForwardMove(move)`
+### `SetViewAngles(angles)`
 
-## `SetSideMove(move)`
+Sets the viewangles.
 
-## `SetUpMove(move)`
+### `SetForwardMove(move)`
+
+Sets the forward movement.
+
+### `SetSideMove(move)`
+
+Sets the side strafe.
+
+### `SetUpMove(move)`
+
+Sets the up/down movement.

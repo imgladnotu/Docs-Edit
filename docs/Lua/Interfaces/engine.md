@@ -2,42 +2,53 @@
 
 Engine is the main class of the engine. It is responsible for managing the game loop, the game state, the game objects, the game input, the game audio, the game graphics, and the game physics.
 
-## `IsInGame()`
+## Methods
+
+### `IsInGame()`
 
 If the player is in a game. Returns a bool.
 
-## `IsConnected()`
+### `IsConnected()`
 
 If the player is connected to the server. Returns a bool.
 
-## `IsTakingScreenshot()`
+### `IsTakingScreenshot()`
 
 If the player is taking a screenshot. Returns a bool.
 
-## `ExecuteCommand(command)`
+### `ExecuteCommand(command)`
 
 Execute a command without restrictions.
 
-## `GetLocalPlayer()`
+### `GetLocalPlayer()`
 
 Returns the local player.
 
-## `GetMaxClients()`
+### `GetMaxClients()`
 
 Returns the maximum amount of players.
 
-## `GetLevelName()`
+### `GetLevelName()`
 
 Returns the name of the current map.
 
-## `GetScreenSize()`
+### `GetScreenSize()`
 
 Returns the screen size as a Vec3.
 
-## `GetViewAngles()`
+### `GetViewAngles()`
 
 Returns the view angles as a Vec3.
 
-## `SetViewAngles(angles)`
+### `SetViewAngles(angles)`
 
 Sets the view angles.
+
+## Examples
+
+``` lua title="Print the current view angles"
+local Engine = Interfaces.Engine
+local viewAngles = Engine:GetViewAngles()
+
+print("Viewangles: " .. viewAngles.x .. " " .. viewAngles.y .. " " .. viewAngles.z)
+```

@@ -2,18 +2,20 @@
 
 Provides functions to get various entities.
 
-## `GetLocalPlayer()`
+## Functions
 
-Returns the local player.
+### `GetLocalPlayer()`
 
-## `GetLocalWeapon()`
+Returns the local player as a BaseEntity.
 
-Returns the local weapon.
+### `GetLocalWeapon()`
 
-## `GetPlayerResource()`
+Returns the local weapon as a BaseCombatWeapon.
 
-Returns the player resource to get information about the players.
+### `GetPlayerResource()`
 
-## `GetByIndex(index)`
+Returns the player resource to get information about the players as a PlayerResource object.
 
-Returns the entity with the given index.
+### `GetByIndex(index)`
+
+Returns the entity with the given index as a BaseEntity.
