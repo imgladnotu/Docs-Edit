@@ -1,6 +1,7 @@
 site_name: Fedoraware Docs
 repo_url: https://github.com/Fedoraware/Fedoraware
 repo_name: Fedoraware
+edit_uri: https://github.com/Fedoraware/Docs/edit/main/docs/
 theme:
   name: material
   palette:
