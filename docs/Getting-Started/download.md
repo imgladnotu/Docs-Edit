@@ -19,4 +19,5 @@ There are two ways to download pre-built Fedoraware .dll binaries from GitHub.
 
 [Download latest build](https://nightly.link/Fedoraware/Fedoraware/workflows/msbuild/main/Fedoraware.zip){ .md-button .md-button--primary }
 
+This method can be used without a GitHub account. It will download the latest artifact from GitHub Actions using nightly.link.
 After downloading the build, simply extract it and inject the *Fedoraware.dll*
