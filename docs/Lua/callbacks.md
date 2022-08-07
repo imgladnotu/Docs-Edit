@@ -24,6 +24,10 @@ You can use this to do specific things when anything in the game happens (Player
 Called every time the game receives a user message from the server.
 This can be chat messages, voic menu interactions etc.
 
+### `FrameStageNotify(ClientFrameStage)`
+
+Called when starting, rendering and ending a frame. The current stage of the frame is passed as a parameter.
+
 ## Usage
 
 ### `Register(type, name, callback)`
