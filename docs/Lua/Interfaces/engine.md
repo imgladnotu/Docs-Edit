@@ -47,7 +47,7 @@ Sets the view angles.
 ## Examples
 
 ``` lua title="Print the current view angles"
-local Engine = Interfaces.Engine
+local Engine = Interfaces.GetEngine()
 local viewAngles = Engine:GetViewAngles()
 
 print("Viewangles: " .. viewAngles.x .. " " .. viewAngles.y .. " " .. viewAngles.z)

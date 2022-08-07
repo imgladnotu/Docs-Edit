@@ -19,6 +19,11 @@ You can use this to draw your own shapes on the screen.
 Called every time the game receives an event from the server.
 You can use this to do specific things when anything in the game happens (Player deaths, Damage, etc.)
 
+### `DispatchUserMessage(UserMessage)`
+
+Called every time the game receives a user message from the server.
+This can be chat messages, voic menu interactions etc.
+
 ## Usage
 
 ### `Register(type, name, callback)`

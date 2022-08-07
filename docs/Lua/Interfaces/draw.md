@@ -31,7 +31,7 @@ Sets the current color for all upcomming drawing functions.
 ## Examples
 
 ```lua title="Draw shifted ticks on the screen"
-local Draw = Interfaces.Draw
+local Draw = Interfaces.GetDraw()
 
 function OnDraw()
     Draw:SetColor(255, 0, 0, 255)
