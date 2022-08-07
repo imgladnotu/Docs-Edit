@@ -1,6 +1,7 @@
 # UserMessage
 
 Contains the data for a user message of the DispatchUserMessage callback.
+You can find more information about user messages on the [Alliedmods Wiki](https://wiki.alliedmods.net/User_messages).
 
 ## Methods
 
