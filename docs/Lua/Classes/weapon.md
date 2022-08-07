@@ -11,7 +11,7 @@ If the entity is valid. Returns a bool. This runs before every other function.
 
 ### `GetEntity()`
 
-Returns the entity of the weapon as a BaseEntity.
+Returns the entity of the weapon as a [BaseEntity](entity.md).
 
 ### `GetName()`
 

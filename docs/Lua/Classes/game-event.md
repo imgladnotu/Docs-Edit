@@ -1,6 +1,7 @@
 # GameEvent
 
 Used in the `FireGameEvent` callback. Contains the event data.
+You can find more information about game events on the [Alliedmods Wiki](https://wiki.alliedmods.net/Team_Fortress_2_Events).
 
 ## Methods
 

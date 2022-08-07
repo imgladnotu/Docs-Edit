@@ -1,5 +1,5 @@
 !!! note
-    The docs are still in-progress and might be imcomplete. Feel free to contribute and add/edit the docs!
+    The docs are still in-progress and might be incomplete. Feel free to contribute and add/edit the docs!
 
 # Home
 
