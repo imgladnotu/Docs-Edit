@@ -48,3 +48,16 @@ Button bitmask for UserCmd.
 | FRAME_NET_UPDATE_END | `4` |
 | FRAME_RENDER_START | `5` |
 | FRAME_RENDER_END | `6` |
+
+## Fonts
+
+| Key | Value |
+| :-: | :-: |
+| FONT_ESP | `0` |
+| FONT_ESP_NAME | `1` |
+| FONT_ESP_COND | `2` |
+| FONT_ESP_PICKUPS | `3` |
+| FONT_MENU | `4` |
+| FONT_INDICATORS | `5` |
+| FONT_IMGUI | `6` |
+| FONT_OSRS | `7` |
