@@ -28,6 +28,10 @@ Draws a filled circle on the screen.
 
 Sets the current color for all upcomming drawing functions.
 
+### `SetFont(fontIndex)`
+
+Sets the current font for all upcomming text functions.
+
 ## Examples
 
 ```lua title="Draw shifted ticks on the screen"
