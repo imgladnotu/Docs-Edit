@@ -22,7 +22,7 @@ If the entity is valid. Returns a bool. This runs before every other function.
 
 Returns the index of the entity as a number.
 
-#### `GetOrigin()`
+### `GetOrigin()`
 
 Returns the origin location of the entity as a Vec3.
 
