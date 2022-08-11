@@ -4,6 +4,10 @@ The UserCmd gets passed to the CreateMove callback and contains information abou
 
 ## Methods
 
+### `IsValid()`
+
+If the entity is valid. Returns a bool. This runs before every other function.
+
 ### `GetButtons()`
 
 Returns the currently pressed movement/interaction buttons as a number.

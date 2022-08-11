@@ -26,6 +26,14 @@ Returns the index of the entity as a number.
 
 Returns the origin location of the entity as a Vec3.
 
+### `GetAngles()`
+
+Returns the absolute angles of the entity as a Vec3.
+
+### `GetEyeAngles()`
+
+Returns the eye angles of the entity as a Vec3.
+
 ### `GetClassID()`
 
 Returns the class ID of the entity as a number.
@@ -65,3 +73,11 @@ Returns the team of the entity as a number.
 ### `SetOrigin(origin)`
 
 Sets the origin of the entity.
+
+### `SetAngles(angles)`
+
+Sets the angles of the entity.
+
+### `SetEyeAngles(angles)`
+
+Sets the eye angles of the entity.
