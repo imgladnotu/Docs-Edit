@@ -40,3 +40,11 @@ Returns the weapon ID of the weapon as a number.
 ### `IsInReload()`
 
 Returns if the weapon is currently reloading.
+
+### `GetDamage()`
+
+Returns the damage of the weapon.
+
+### `GetBulletsPerShot()`
+
+Returns the bullets per shot of the weapon.

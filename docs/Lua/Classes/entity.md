@@ -81,3 +81,7 @@ Sets the angles of the entity.
 ### `SetEyeAngles(angles)`
 
 Sets the eye angles of the entity.
+
+### `GetCriticals()`
+
+Returns the criticals of the entity.
