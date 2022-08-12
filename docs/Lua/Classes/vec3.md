@@ -40,6 +40,10 @@ Calculates the dot product of the two vectors.
 
 Returns the distance to the given vector.
 
+### `DistToSqr(Vec3)`
+
+Returns the squared distance of 2 vectors
+
 ### `IsZero()`
 
 Returns whether the vector is all zeros.

@@ -32,6 +32,10 @@ Sets the current color for all upcomming drawing functions.
 
 Sets the current font for all upcomming text functions.
 
+### `W2S(Vec3)`
+
+Converts a Vec3 world coordinate into Vec2 screen space coordinates. Returns Vec2(0, 0) if not on screen.
+
 ## Examples
 
 ```lua title="Draw shifted ticks on the screen"
