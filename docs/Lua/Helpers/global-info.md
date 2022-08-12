@@ -36,6 +36,14 @@ Returns the current tick count.
 
 Returns how long a tick is.
 
+### `SilentTime()`
+
+Returns if the current tick should be silent.
+
+### `SetSilentTime(bool)`
+
+Sets if the current tick should be silent.
+
 ## Examples
 
 ``` lua title="Prints the current tick count"

@@ -10,4 +10,4 @@ Returns whether the given key is down. The key is a [Virtual-Key Code](https://c
 
 ### `GetMousePos()`
 
-Returns the mouse position as a table `{ x, y }`.
+Returns the mouse position as a [Vec2](../Classes/vec2.md).
