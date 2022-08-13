@@ -33,6 +33,10 @@ Reads and returns the next byte in the message as a number.
 
 Reads and returns the next float in the message as a number.
 
+### `ReadLong()`
+
+Reads and returns the next long in the message as a number.
+
 ### `ReadString(length)`
 
 Reads and returns the next string of a given length in the message as a string.
