@@ -8,6 +8,10 @@ The UserCmd gets passed to the CreateMove callback and contains information abou
 
 If the entity is valid. Returns a bool. This runs before every other function.
 
+### `SetSendPacket(state)`
+
+Sets whether the packet should be sent or choked. This might be overwritten by other features.
+
 ### `GetButtons()`
 
 Returns the currently pressed movement/interaction buttons as a number.
