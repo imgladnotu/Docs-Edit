@@ -28,6 +28,10 @@ This can be chat messages, voic menu interactions etc.
 
 Called when starting, rendering and ending a frame. The current stage of the frame is passed as a parameter.
 
+### `AntiAim(UserCmd, isReal)`
+
+Called every time the anti-aim is calculated. isReal is true if the anti-aim will send the real angles to the server.
+
 ## Usage
 
 ### `Register(type, name, callback)`
