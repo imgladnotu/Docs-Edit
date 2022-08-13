@@ -44,6 +44,10 @@ Returns the view angles as a Vec3.
 
 Sets the view angles.
 
+### `GetPlayerForUserID(userID)`
+
+Returns an entity index from a user ID.
+
 ## Examples
 
 ``` lua title="Print the current view angles"
